@@ -1,7 +1,8 @@
 # FGSM Brute Force Attack
 
-This project implements a Fast Gradient Sign Method (FGSM) brute force attack on image classification models from Hugging Face. The script generates adversarial examples to fool the model into misclassifying the input images.
+This project demonstrates a **Fast Gradient Sign Method (FGSM)** brute force attack on image classification models hosted on Hugging Face 🤖. It generates **adversarial examples** by perturbing input images, attempting to force the model into misclassifying them.  
 
+Supports targeted attacks by specifying a desired misclassification label, and allows testing across different epsilon values.
 
 ## Installation
 ```bash
